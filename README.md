@@ -10,7 +10,7 @@ A utility to create branches named following a convention of 'pair-github_id_1,g
   
   $ ./install # will install to /usr/local/bin
 
-**Note** This utility is dependent on having [set-git-user](../../../set-git-user) utility installed for setting up the git config for pair work on your workstation. Please install that first.
+**Note:** This utility is dependent on having [set-git-user](../../../set-git-user) utility installed for setting up the git config for pair work on your workstation. Please install that first.
 
 #### The simplest use of this utility for pairing: 
 
