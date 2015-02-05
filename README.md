@@ -6,32 +6,28 @@ A utility to create branches named following a convention of 'pair-github_id_1,g
 
 ### Installation
 
+```bash
   $ git clone https://github.com/Devbootcamp/pair-branch.git
-  
   $ cd pair-branch
-  
   $ ./install # will install to /usr/local/bin
+```
 
 #### The simplest use of this utility for pairing: 
 
+```bash
   $ weare alycit mikelikesbikes  #this is from the set-git-user utility
-  
   $ cd project_git_repo
-  
   $ pair-branch
-  
   Switched to a new branch 'pair-alycit,mikelikesbikes'
-  
   Ran the following command for you: git checkout -b "pair-alycit,mikelikesbikes"
+```
 
 #### If you are working solo, this is the workflow:
 
+```bash
   $ iam alycit  #this is from the set-git-user utility
-  
   $ cd project_git_repo
-  
   $ pair-branch
-  
   Switched to a new branch 'pair-alycit'
-  
   Ran the following command for you: git checkout -b "pair-alycit"
+```
