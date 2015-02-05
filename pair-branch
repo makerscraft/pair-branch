@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+branch_name="pair-$(get-git-user | paste -sd"," -)"
+git checkout -b "$branch_name"
+echo "Ran the following command for you: git checkout -b \"$branch_name\""
